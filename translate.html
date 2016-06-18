@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>translator</title>
+
+    <style type="text/css">
+
+        .content {
+            width: 500px;
+            margin: auto;
+        }
+
+        textarea,
+        .result {
+            width: 230px;
+            height: 100px;
+            border: 1px solid #f3d7ac;
+            margin: 0 0 0 5px;
+            padding: 5px;
+            float: left;
+            outline: none;
+            overflow-x: auto;
+            resize: none;
+        }
+
+        .counter {
+            font-size: 10px;
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div class="content">
+
+    <h2>Переводчик</h2>
+
+    <textarea name="text" cols="30" rows="10"></textarea>
+
+    <div class="result"></div>
+
+    <div class="counter">Слов: <span>0</span></div>
+
+    <!-- https://tech.yandex.ru/translate/doc/dg/reference/translate-docpage/ -->
+    <!-- trnsl.1.1.20151216T091313Z.36f5010f3318962e.c6a30c8dabebb65c0e150587decbeed86eaf27ef -->
+
+</div>
+<script src="jstranslate.js"></script>
+</body>
+</html>
